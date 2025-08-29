@@ -1,26 +1,16 @@
-import streamlit as st
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy import stats
-
-# Base de dados
-df = pd.read_csv('DashBoard-Nicolas/ecommerce_sales.csv')
-
 # Sidebar
-st.sidebar.title("🧭Navegação")
-page = st.sidebar.radio("Ir para:", ["🏠Home", "👨‍🎓Formação & Experiência", "🦾Skills", "📊Análise de Dados"])
+st.sidebar.title("🧭 Navegação")
+page = st.sidebar.radio("Ir para:", ["🏠 Home", "🎓 Formação & Experiência", "🧑‍💻 Skills", "📊 Análise de Dados"])
 
 # HOME
-if page == "Home":
-    st.title("👨‍💻 Nicolas Ferreira")
-    st.subheader("Estudante de Engenharia de Software | FIAP | 4º Semestre")
+if page == "🏠 Home":
+    st.title("👨‍💻 Nicão das Cremas")
+    st.subheader("Estudante de Engenharia de Software | FIAP | 3º Semestre")
     st.write("Bem-vindo ao meu Dashboard Profissional! 🚀")
-    st.info("Objetivo: Atuar como Estagiário em Data Science, CyberSecurity, Engenheiro de software e relacionados, aplicando análise de dados e oque for necessário para resolver problemas reais do mercado.")
+    st.info("Objetivo: Atuar como Estagiário em Data Science, aplicando análise de dados para resolver problemas reais do mercado.")
 
 # FORMAÇÃO e EXPERIÊNCIA
-elif page == "Formação & Experiência":
+elif page == "🎓 Formação & Experiência":
     st.header("🎓 Formação Acadêmica")
     st.write("- Engenharia de Software, FIAP, 3º semestre")
 
@@ -33,7 +23,7 @@ elif page == "Formação & Experiência":
     st.write("- Participação em desafios de análise de dados")
 
 # SKILLS
-elif page == "Skills":
+elif page == "🧑‍💻 Skills":
     st.header("🛠️ Skills Técnicas")
     st.success("- Python (Pandas, Numpy, Matplotlib, Seaborn, Streamlit)")
     st.success("- SQL (MySQL)")
@@ -44,7 +34,7 @@ elif page == "Skills":
     st.info("- Comunicação, trabalho em equipe, resolução de problemas, adaptabilidade")
 
 # ANÁLISE DE DADOS
-elif page == "Análise de Dados":
+elif page == "📊 Análise de Dados":
     st.header("📊 Análise de Dados - Vendas de E-commerce")
 
     st.subheader("1. Apresentação dos dados e tipos de variáveis")
