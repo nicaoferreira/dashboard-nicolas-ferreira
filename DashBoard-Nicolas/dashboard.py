@@ -10,7 +10,8 @@ from scipy import stats
 df = pd.read_csv("DashBoard-Nicolas/ecommerce_sales.csv")
 
 st.sidebar.title("🧭 Navegação")
-page = st.sidebar.radio("Ir para:", ["🏠 Home", "🎓 Formação & Experiência", "🧑‍💻 Skills", "📊 Análise de Dados"])
+page = st.sidebar.radio("Ir para:", ["🏠 Home", "🎓 Formação e 
+Experiência", "🧑‍💻 Skills", "📊 Análise de Dados"])
 
 # HOME
 if page == "🏠 Home":
