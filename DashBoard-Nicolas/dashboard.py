@@ -7,7 +7,7 @@ from scipy import stats
 
 
 # Sidebar
-df = pd.read_csv("DashBoard-Nicolas/ecommerce_sales.csv"
+df = pd.read_csv("DashBoard-Nicolas/ecommerce_sales.csv")
 
 st.sidebar.title("🧭 Navegação")
 page = st.sidebar.radio("Ir para:", ["🏠 Home", "🎓 Formação & Experiência", "🧑‍💻 Skills", "📊 Análise de Dados"])
