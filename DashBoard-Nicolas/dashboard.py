@@ -6,7 +6,6 @@ import seaborn as sns
 from scipy import stats
 
 
-# Sidebar
 df = pd.read_csv("DashBoard-Nicolas/ecommerce_sales.csv")
 
 st.sidebar.title("🧭 Navegação")
@@ -17,7 +16,7 @@ if page == "🏠 Home":
     st.title("👨‍💻 Nicolas Ferreira")
     st.subheader("Estudante de Engenharia de Software | FIAP | 4º Semestre")
     st.write("Bem-vindo ao meu Dashboard Profissional! 🚀")
-    st.info("Objetivo: Atuar como Estagiário em Data Science, Engenharia de software e relacionaods, aplicando análise de dados e oque for necessário para resolver problemas reais do mercado.")
+    st.info("Objetivo: Atuar como Estagiário em Data Science, Engenheiro de software e relacionados, aplicando análise de dados e oque for necessário para resolver problemas reais do mercado.")
 
 # FORMAÇÃO e EXPERIÊNCIA
 elif page == "🎓 Formação & Experiência":
