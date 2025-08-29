@@ -1,18 +1,26 @@
+import streamlit as st
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy import stats
+
+
 # Sidebar
 st.sidebar.title("🧭 Navegação")
 page = st.sidebar.radio("Ir para:", ["🏠 Home", "🎓 Formação & Experiência", "🧑‍💻 Skills", "📊 Análise de Dados"])
 
 # HOME
 if page == "🏠 Home":
-    st.title("👨‍💻 Nicão das Cremas")
-    st.subheader("Estudante de Engenharia de Software | FIAP | 3º Semestre")
+    st.title("👨‍💻 Nicolas Ferreira")
+    st.subheader("Estudante de Engenharia de Software | FIAP | 4º Semestre")
     st.write("Bem-vindo ao meu Dashboard Profissional! 🚀")
-    st.info("Objetivo: Atuar como Estagiário em Data Science, aplicando análise de dados para resolver problemas reais do mercado.")
+    st.info("Objetivo: Atuar como Estagiário em Data Science, Engenharia de software e relacionaods, aplicando análise de dados e oque for necessário para resolver problemas reais do mercado.")
 
 # FORMAÇÃO e EXPERIÊNCIA
 elif page == "🎓 Formação & Experiência":
     st.header("🎓 Formação Acadêmica")
-    st.write("- Engenharia de Software, FIAP, 3º semestre")
+    st.write("- Engenharia de Software, FIAP, 4º semestre")
 
     st.header("📜 Certificações")
     st.write("- Comunicação efetiva e empática (Nestlé)")
