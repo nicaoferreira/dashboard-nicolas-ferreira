@@ -7,6 +7,8 @@ from scipy import stats
 
 
 # Sidebar
+df = pd.read_csv("DashBoard-Nicolas/ecommerce_sales.csv"
+
 st.sidebar.title("🧭 Navegação")
 page = st.sidebar.radio("Ir para:", ["🏠 Home", "🎓 Formação & Experiência", "🧑‍💻 Skills", "📊 Análise de Dados"])
 
@@ -42,6 +44,7 @@ elif page == "🧑‍💻 Skills":
     st.info("- Comunicação, trabalho em equipe, resolução de problemas, adaptabilidade")
 
 # ANÁLISE DE DADOS
+
 elif page == "📊 Análise de Dados":
     st.header("📊 Análise de Dados - Vendas de E-commerce")
 
