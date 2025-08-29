@@ -7,7 +7,7 @@ import seaborn as sns
 from scipy import stats
 
 # Base de dados
-df = pd.read_csv('ecommerce_sales.csv')
+df = pd.read_csv('DashBoard-Nicolas/ecommerce_sales.csv')
 
 # Dashboard
 st.title('Dashboard Profissional - Nicolas Ferreira')
