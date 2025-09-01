@@ -16,7 +16,7 @@ if page == "🏠 Home":
     st.title("👨‍💻 Nicolas Ferreira")
     st.subheader("Estudante de Engenharia de Software | FIAP | 4º Semestre")
     st.write("Bem-vindo ao meu Dashboard Profissional! 🚀")
-    st.info("Objetivo: Atuar como Estagiário em Data Science, Engenheiro de software e relacionados, aplicando análise de dados e oque for necessário para resolver problemas reais do mercado.")
+    st.info("Objetivo: Atuar como Estagiário em Ciber Segurança, Data Science, Engenheiro de software e relacionados, aplicando análise de dados e oque for necessário para resolver problemas reais do mercado.")
 
 # FORMAÇÃO e EXPERIÊNCIA
 elif page == "🎓 Formação & Experiência":
