@@ -21,7 +21,7 @@ if page == "🏠 Home":
     st.divider()
     st.subheader("📬 Contato")
     st.write("📧 Email: **nicolas.lorenzo.ferreira@gmail.com**")
-    st.write("📞 Whatsapp: **+55 (11)94559-0880**")
+    st.write("📞 Whatsapp: **+55 (11) 94559-0880**")
     st.markdown("💼 [LinkedIn](https://www.linkedin.com/in/nicolasferreira)")
     st.markdown("🐙 [GitHub](https://github.com/nicolasferreira)")
 
