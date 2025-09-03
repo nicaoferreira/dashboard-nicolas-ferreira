@@ -18,22 +18,12 @@ if page == "🏠 Home":
     st.write("Bem-vindo ao meu Dashboard Profissional! 🚀")
     st.info("Objetivo: Atuar como Estagiário em Ciber Segurança, Data Science, Engenheiro de software e relacionados, aplicando análise de dados e oque for necessário para resolver problemas reais do mercado.")
     
-    st.header("📬 Entre em Contato")
-    st.write("Ficarei feliz em conversar com você ! 😊")
+    st.divider()
+    st.subheader("📬 Contato")
+    st.write("📧 Email: **nicolas.lorenzo.ferreira@gmail.com**")
+    st.markdown("💼 [LinkedIn](https://www.linkedin.com/in/nicolasferreira)")
+    st.markdown("🐙 [GitHub](https://github.com/nicolasferreira)")
 
-    st.subheader("📧 Email")
-    st.code("nicolas.lorenzo.ferreira@gmail.com")
-
-    st.subheader("📞 Telefone")
-    st.code("+55 (11) 94559-0880")
-    
-    st.subheader("💼 LinkedIn")
-    st.markdown("[Acesse meu perfil no LinkedIn](https://www.linkedin.com/in/nicolas-ferreira-45806b2b6/)")
-
-    st.subheader("🐙 GitHub")
-    st.markdown("[Veja meus projetos no GitHub](https://github.com/nicaoferreira)")
-
-    st.success("Obrigado por visitar meu dashboard! 🚀")
 # FORMAÇÃO e EXPERIÊNCIA
 elif page == "🎓 Formação & Experiência":
     st.header("🎓 Formação Acadêmica")
