@@ -80,3 +80,22 @@ elif page == "📊 Análise de Dados":
         st.success("Resultado: diferença significativa entre categorias A e B ✅")
     else:
         st.warning("Resultado: não há diferença significativa entre categorias A e B ❌")
+
+# CONTATO
+elif page == "📬 Contato":
+    st.header("📬 Entre em Contato")
+    st.write("Ficarei feliz em conversar com você ! 😊")
+
+    st.subheader("📧 Email")
+    st.code("nicolas.lorenzo.ferreira@gmail.com")
+
+    st.subheader("📞 Telefone")
+    st.code("+55 (11) 94559-0880")
+    
+    st.subheader("💼 LinkedIn")
+    st.markdown("[Acesse meu perfil no LinkedIn](https://www.linkedin.com/in/nicolas-ferreira-45806b2b6/)")
+
+    st.subheader("🐙 GitHub")
+    st.markdown("[Veja meus projetos no GitHub](https://github.com/nicaoferreira)")
+
+    st.success("Obrigado por visitar meu dashboard! 🚀")
