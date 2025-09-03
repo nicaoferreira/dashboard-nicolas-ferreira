@@ -22,8 +22,8 @@ if page == "🏠 Home":
     st.subheader("📬 Contato")
     st.write("📧 Email: **nicolas.lorenzo.ferreira@gmail.com**")
     st.write("📞 Whatsapp: **+55 (11) 94559-0880**")
-    st.markdown("💼 [LinkedIn](https://www.linkedin.com/in/nicolasferreira)")
-    st.markdown("🐙 [GitHub](https://github.com/nicolasferreira)")
+    st.markdown("💼 [Meu LinkedIn](https://www.linkedin.com/in/nicolas-ferreira-45806b2b6/)")
+    st.markdown("🐙 [Meu GitHub](https://github.com/nicaoferreira)")
 
 # FORMAÇÃO e EXPERIÊNCIA
 elif page == "🎓 Formação & Experiência":
